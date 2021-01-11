@@ -33,7 +33,7 @@ spec:
         app: mobile-simulator
     spec:
       containers:
-        - image: quay.io/loafyloaf/example-bank:4ea59aadfa4c5879435e25df94a10db66ac9901c
+        - image: quay.io/loafyloaf/example-bank:ga
           imagePullPolicy: Always
           name: mobile-simulator
           envFrom:
